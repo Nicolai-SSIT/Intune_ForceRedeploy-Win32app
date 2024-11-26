@@ -11,5 +11,6 @@
 
 
 Kilder:
+https://www.powershellgallery.com/packages/IntuneStuff/1.6.0
 https://github.com/ztrhgf/useful_powershell_functions/blob/master/INTUNE/Invoke-IntuneWin32AppRedeploy.ps1 <br>
 https://doitpshway.com/force-redeploy-of-intune-applications-using-powershell <br>
