@@ -7,3 +7,8 @@
 5. Vælg din MS-konto i browser popup
 6. PS: Invoke-IntuneWin32Appredeploy -getDataFromIntune
 7. Markér den App som du vil redeploy og klik "Ok" <br>
+
+
+Kilder:
+https://github.com/ztrhgf/useful_powershell_functions/blob/master/INTUNE/Invoke-IntuneWin32AppRedeploy.ps1
+https://doitpshway.com/force-redeploy-of-intune-applications-using-powershell
