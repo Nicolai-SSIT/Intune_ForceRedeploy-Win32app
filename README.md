@@ -9,7 +9,7 @@
 7. PS: Invoke-IntuneWin32Appredeploy -getDataFromIntune
 8. Markér den App som du vil redeploy og klik "Ok"
 
- Hvis den fryser, åben kør og indsæt intunemanagementextension://syncapp for at gennnemtvinge Intune udrulning <br>
+ Hvis den fryser, åben kør og indsæt "intunemanagementextension://syncapp" for at gennnemtvinge Intune udrulning <br>
 
 
 Kilder:
