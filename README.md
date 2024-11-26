@@ -9,6 +9,6 @@
 7. Markér den App som du vil redeploy og klik "Ok" <br>
 
 
-Kilder:
-https://github.com/ztrhgf/useful_powershell_functions/blob/master/INTUNE/Invoke-IntuneWin32AppRedeploy.ps1
-https://doitpshway.com/force-redeploy-of-intune-applications-using-powershell
+Kilder: <br>
+https://github.com/ztrhgf/useful_powershell_functions/blob/master/INTUNE/Invoke-IntuneWin32AppRedeploy.ps1 <br>
+https://doitpshway.com/force-redeploy-of-intune-applications-using-powershell <br>
