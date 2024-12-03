@@ -1,5 +1,5 @@
 # Intune_Win32app-ForceRedeploy
-## Guide til redeploy af udrullet Intune Win32app <br>
+## Guide til force redeploy af udrullet Intune Win32app <br>
 1. Kør PowerShell som administrator
 2. PS: Install-Module IntuneStuff -Force
 3. PS: Import-Module IntuneStuff -Force
