@@ -41,8 +41,13 @@ Each user has a unique subkey corresponding to their **Azure AD User Object ID**
 Under the Win32Apps key, you find one sub key for each user, where the key name is the same as the user object id in Azure Ad. If you want to force a reinstall of all apps deployed, you can simply delete the user id key. But if you want to force a reinstall of a single app, you need to delete the app id as well as it's corresponding GRS (Global Retry Schedule key). Both located under the user key. Here is an example:
 
 ![Alt text](https://www.deploymentresearch.com/wp-content/uploads/2021/12/UserGuidInWin32AppsKey.png)
+Win32Apps registry key sample from a machine enrolled into Intune
+![Alt text](https://www.deploymentresearch.com/wp-content/uploads/2022/07/image-2.png)
+GRS Key
 
-On the above screenshot, the red rectangle is the user key, and the blue rectangle is one of the deployed apps. Based on this info, if I wanted to reinstall all apps, I could run this PowerShell script which deletes all app IDs as well as the GRS keys:
+On the first screenshot above, the red rectangle is the user key, and the blue rectangle is one of the deployed apps. Based on this info, if I wanted to reinstall all apps, I could run this PowerShell script which deletes all app IDs as well as the GRS keys:
+
+
 
 ```
 # Delete all apps for a user
