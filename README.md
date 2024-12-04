@@ -39,17 +39,16 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\IntuneManagementExtension\Win32Apps
 
 Each user has a unique subkey corresponding to their **Azure AD User Object ID**, and under this key are subkeys for each application and its **Global Retry Schedule (GRS)**.
 
----
 
 ## Forcing Redeployment of Win32 Apps
 
 ### Deleting All Assigned Apps for a User
 To delete all applications assigned to a specific user:
 
+---
 $Path = "HKLM:SOFTWARE\Microsoft\IntuneManagementExtension\Win32Apps"
 $UserObjectID = "18ba2977-ea61-4547-8e8b-e9cbbced8719"  # Replace with actual User Object ID
 Get-Item -Path $Path\$UserObjectID | Remove-Item -Recurse -Force
-
 ---
 
 Deleting a Specific App Assignment
