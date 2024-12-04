@@ -116,6 +116,7 @@ Note #2: When deleting a single application, you have to use a wildcard match, s
 As for finding the application id, you can see it in the browser address bar when viewing the application in Intune, or you can use the below PowerShell script. Just remove the trailing _1 from the app registry key when searching for a matching GUID:
 ![Alt text](https://www.deploymentresearch.com/wp-content/uploads/2022/06/AppIDinURL-848x241.png)
 
+
 Commands to see all Intune Win32Apps enrolled into the tenant:
 ```
 # Connect to Microsoft Graph 
