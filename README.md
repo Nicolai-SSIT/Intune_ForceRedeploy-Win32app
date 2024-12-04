@@ -45,11 +45,12 @@ Each user has a unique subkey corresponding to their **Azure AD User Object ID**
 
 ### Deleting All Assigned Apps for a User
 To delete all applications assigned to a specific user:
-```powershell
+
 $Path = "HKLM:SOFTWARE\Microsoft\IntuneManagementExtension\Win32Apps"
 $UserObjectID = "18ba2977-ea61-4547-8e8b-e9cbbced8719"  # Replace with actual User Object ID
 Get-Item -Path $Path\$UserObjectID | Remove-Item -Recurse -Force
-```powershell
+
+---
 
 Deleting a Specific App Assignment
 To delete a specific application:
