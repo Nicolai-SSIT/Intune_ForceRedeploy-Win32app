@@ -2,8 +2,6 @@
 ## Guide til force redeploy af udrullet Intune Win32app <br>
 
 
-markdown
-Kopier kode
 # Forcing Redeployment of Applications and Scripts in Microsoft Intune
 
 This repository provides step-by-step guidance and sample scripts to force the redeployment of Win32 applications and PowerShell scripts assigned through Microsoft Intune. This is especially useful for testing, troubleshooting detection rules, or reassigning applications to devices.
@@ -38,8 +36,6 @@ When a Win32 app is installed via Intune, the Microsoft Intune Management Extens
 - The IME agent manages deployments and tracks them in the following registry key:
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\IntuneManagementExtension\Win32Apps
 
-sql
-Kopier kode
 
 Each user has a unique subkey corresponding to their **Azure AD User Object ID**, and under this key are subkeys for each application and its **Global Retry Schedule (GRS)**.
 
