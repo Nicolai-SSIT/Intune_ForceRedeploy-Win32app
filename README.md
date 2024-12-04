@@ -120,7 +120,7 @@ Commands to see all Intune Win32Apps enrolled into the tenant:
 ```
 # Connect to Microsoft Graph 
 # Requires the Microsoft.Graph.Intune module to be installed
-Connect-MSGraph -ForceInteractive
+Connect-MgGraph -ForceInteractive
 
 # Get all Apps and their id
 $Apps = Get-DeviceAppManagement_MobileApps 
