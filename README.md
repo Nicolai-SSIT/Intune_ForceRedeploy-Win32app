@@ -49,7 +49,7 @@ On the above screenshot, the red rectangle is the user key, and the blue rectang
 $Path = "HKLM:SOFTWARE\Microsoft\IntuneManagementExtension\Win32Apps"
 $UserObjectID = "18ba2977-ea61-4547-8e8b-e9cbbced8719"
 Get-Item -Path $Path\$UserObjectID | Remove-Item -Recurse -Force
-
+```
 
 
 Kilder:
