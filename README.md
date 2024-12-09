@@ -1,10 +1,9 @@
-# Intune_Win32app-ForceRedeploy
-## Guide til force redeploy af udrullet Intune Win32app <br>
+# Guide til force redeploy af udrullet Intune Win32app 
+## SeeSafe IT
+<br>
 
 
-# Forcing Redeployment of Applications and Scripts in Microsoft Intune
-
-This repository provides step-by-step guidance and sample scripts to force the redeployment of Win32 applications and PowerShell scripts assigned through Microsoft Intune. This is especially useful for testing, troubleshooting detection rules, or reassigning applications to devices.
+Dette repository giver trin-for-trin vejledning og eksempler til at tvinge genudrulning af Win32-applikationer og PowerShell-scripts, der er tildelt via Microsoft Intune. Dette er især nyttigt til test, fejlfinding af detektionsregler eller gen-udrulning af applikationer til specifikke enheder via Intune.
 
 ## Table of Contents
 - [Overview](#overview)
